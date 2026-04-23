@@ -1,12 +1,6 @@
 ---
 name: startup-investment
-description: |
-  스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 진단·전략·판정·조회 4모드.
-  P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, VC, PE.
-  P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize.
-  P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy.
-  P5: 진단서로, 전략서로, .md로.
-  NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model).
+description: "스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 진단·전략·판정·조회 4모드. P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, VC, PE. P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize. P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy. P5: 진단서로, 전략서로, .md로. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
 ---
 
 # Startup Investment Engine
@@ -16,7 +10,7 @@ description: |
 
 ---
 
-## ⛔ 절대 규칙
+## ⛔ 절대 규칙 (INVARIANT)
 
 | # | 규칙 | 이유 |
 |---|------|------|
@@ -174,6 +168,12 @@ description: |
 
 ---
 
+## 예시
+
+발동 후 스킬 프로토콜에 따라 단계별 실행 → 산출물 생성.
+
+---
+
 ## Gotchas
 
 | 함정 | 대응 |
@@ -186,3 +186,10 @@ description: |
 | 밸류에이션 수치 단정 | "2024~2026 환경" 태그 + 시장 조건 변동 경고 |
 | Exit 경로 단일 추천 | 교차분석 부록A Exit 매트릭스 참조, 병행 전략 패턴 제시 |
 | 세법 수치 기억 인출 | 반드시 스포크 로드 후 인용 |
+
+
+### 자체 점검
+SKILL.md ≤10KB · P1 ≥5개 · Gotchas 존재 확인.
+
+
+<!-- SKILL_PRECEDENCE: UP > SKILL -->
