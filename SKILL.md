@@ -1,9 +1,9 @@
 ---
-name: startup-investment
+name: investment-skill
 description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 진단·전략·판정·조회 4모드. P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, VC, PE. P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize. P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy. P5: 진단서로, 전략서로, .md로. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
 ---
 
-# Startup Investment Engine
+# Investment Skill — 인베스트먼트 스킬
 
 스타트업 투자 전 생애주기 지식 백과 + 진단/의사결정 엔진.
 7L(Pre-Seed→Secondary) × 3V(전략·법률·재무) + 5X(지분·거버넌스·글로벌·실패·관계) + VX(밸류에이션).
@@ -175,29 +175,13 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 ---
 
 
-## §INV NO_WORK_LABEL (산출물·대화 본질 보호)
+## §INV NO_WORK_LABEL
+산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
-| 항목 | 정의 |
-|------|------|
-| RULE | 산출물·대화 = 인간 언어. 작업 라벨 ZERO. (1만 페이지 1단어 = FAIL) |
-| 판정 | "이 단어, 이 대화 밖 사람이 사전 없이 읽을 수 있나?" NO → 작업 라벨 → 금지 |
-| ALLOW | 업계 전문용어(SAFE·SHA·SPA·ESOP·VC·PE·MOIC·IRR·DPI·TVPI·Cap·CB·RCPS·LP·GP·M&A·IPO) · 고유명사(밴치마크 펀드명) · 법조문 |
-| CONVERT | 라벨 발견 → 실명·평문 풀어쓰기. 예) "7단계(엔젤→IPO→Exit)×3관점·5횡단축·진단/전략/판정/조회 4모드" → 실제 단계·관점·축·모드 명 / "안티딜루션" → "지분희석방어" 평문 |
-| SELF_CHECK | 진단서·전략서 출력 직전에서 자체 스캔. 1개라도 발견 = 차단·재작성. paper-engine cascade 경유 시 INV 13 자동 적용 |
 
----
+## 🚨 MUST cascade → shaper-skill
+모든 산출물 shaper-skill MUST 경유. → `shaper-skill/references/_common/cascade-must.md`
 
-## 🚨 MUST cascade → paper-engine (절대규칙)
-
-**이 스킬의 모든 리포트·산출물 = paper-engine 허브 MUST 경유.** 단독 md/html 출력 = FAIL.
-
-- **진입점:** 모드별 분석 완료 후, 산출물 생성 직전 paper-engine 발동
-- **paper-engine 책임:** MODE_S/M/L · NYT구조 · 3패스삭제 · 4항밀도QC · design-skill cascade 강제
-- **DEFAULT_RENDER = 순수 마크다운:** `.md` 산출 시 `<div>`·`<span>`·`style=` 등 인라인 HTML **전면 금지**. 헤더·불릿·표·인용(`>`)·이모지만 허용
-- **예외:** 사용자가 `"HTML로"·"박스로"·"벤토로"·"시각화"·"카드로"` 명시시에만 html-div-style·apple-box-design cascade 경유
-- **위반 감지:** md 파일에 `<div style>`·`<span style>` 삽입 = 절대규칙 #8 위반 → 재작성
-
----
 
 ## Gotchas
 

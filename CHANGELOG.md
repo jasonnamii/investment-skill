@@ -1,4 +1,4 @@
-# startup-investment — CHANGELOG
+# investment-skill — CHANGELOG
 
 ## autoloop-v1 (2026-04-23)
 - description 표준화: P1~NOT 통합, frontmatter 단일라인화
