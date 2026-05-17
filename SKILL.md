@@ -8,7 +8,28 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 스타트업 투자 전 생애주기 지식 백과 + 진단/의사결정 엔진.
 7L(Pre-Seed→Secondary) × 3V(전략·법률·재무) + 5X(지분·거버넌스·글로벌·실패·관계) + VX(밸류에이션).
 
+
+## Skill Boundaries
+
+- **하는 것** — "v1.0 스타트업 투자 백과+진단엔진.
+- **안 하는 것** — BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
+
 ---
+
+## When to Use
+
+- 사용자가 "진단해줘", "전략짜줘", "판단해줘", "알려줘", "diagnose" 같은 표현으로 발동
+- 도메인 작업이 필요한 시점
+- **안 쓸 때** — BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
 
 ## ⛔ 절대 규칙 (INVARIANT)
 
@@ -28,31 +49,31 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 
 | L | 단계 | 깊이 | 스포크 |
 |---|------|------|--------|
-| L1 | Pre-Seed / 엔젤 | 전수 | → `references/L1-엔젤.md` |
-| L2 | Seed | 전수 | → `references/L2-시드.md` |
-| L3 | Series A~C | 전수 | → `references/L3-시리즈.md` |
-| L4 | Growth / Pre-IPO | 표본 | → `references/L4-그로스.md` |
+| L1 | Pre-Seed / 엔젤 | 전수 | → `references/L1-angel.md` |
+| L2 | Seed | 전수 | → `references/L2-seed.md` |
+| L3 | Series A~C | 전수 | → `references/L3-series.md` |
+| L4 | Growth / Pre-IPO | 표본 | → `references/L4-growth.md` |
 | L5 | IPO / 상장 | 표본 | → `references/L5-IPO.md` |
 | L6 | M&A / 매각 | 스캔 | → `references/L6-MA.md` |
-| L7 | Secondary / 기타 | 스캔 | → `references/L7-세컨더리.md` |
+| L7 | Secondary / 기타 | 스캔 | → `references/L7-secondary.md` |
 
 ### X축 (횡단 관통)
 
 | X | 횡단 | 깊이 | 스포크 |
 |---|------|------|--------|
-| X1 | 지분설계 | 전수 | → `references/X1-지분설계.md` |
-| X2 | 거버넌스 | 표본 | → `references/X2-거버넌스.md` |
-| X3 | 글로벌구조 | 표본 | → `references/X3-글로벌구조.md` |
-| X4 | 실패패턴사전 | 스캔 | → `references/X4-실패패턴.md` |
-| X5 | 투자자-창업자관계 | 스캔 | → `references/X5-관계역학.md` |
+| X1 | 지분설계 | 전수 | → `references/X1-equity.md` |
+| X2 | 거버넌스 | 표본 | → `references/X2-governance.md` |
+| X3 | 글로벌구조 | 표본 | → `references/X3-global.md` |
+| X4 | 실패패턴사전 | 스캔 | → `references/X4-failure.md` |
+| X5 | 투자자-창업자관계 | 스캔 | → `references/X5-relations.md` |
 
 ### 보조 스포크
 
 | 스포크 | 용도 |
 |--------|------|
-| → `references/VX-밸류에이션.md` | 메서드 선택·딜조건 연동·실행 가이드 |
-| → `references/교차분석.md` | 모순6·강화5·빈자리9·L×X교차3 + Exit 매트릭스 |
-| → `references/관찰한계.md` | 구조적 한계4·깊이5·소스3·관할2·시간2 |
+| → `references/VX-valuation.md` | 메서드 선택·딜조건 연동·실행 가이드 |
+| → `references/cross-analysis.md` | 모순6·강화5·빈자리9·L×X교차3 + Exit 매트릭스 |
+| → `references/observation-limits.md` | 구조적 한계4·깊이5·소스3·관할2·시간2 |
 | → `references/pattern-index.md` | **패턴 인덱스** — 전체 236개 패턴 마스터 테이블 + 단계·관점별 분포 + 대조쌍 매핑 |
 
 ### V축 (각 L스포크 내 3관점)
@@ -164,7 +185,7 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 | 밸류에이션 실시간 데이터 부재 | 수치 6개월 후 유효 미보장 | "2024~2026 환경" 태그 |
 | 대안펀딩 상세 부족 | Venture Debt·RBF·토큰 기초만 | 존재 언급 + 외부 참조 |
 
-→ 상세: `references/관찰한계.md` 참조
+→ 상세: `references/observation-limits.md` 참조
 
 ---
 
@@ -183,7 +204,45 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 모든 산출물 shaper-skill MUST 경유. → `shaper-skill/references/_common/cascade-must.md`
 
 
-## Gotchas
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/investment-skill_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | 진단서로, 전략서로, .md로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/investment-skill/{YYYY-MM-DD}_{topic}.md` |
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/L1-angel.md` | L1 angel | 해당 단계 진입 시 |
+| `references/L2-seed.md` | L2 seed | 해당 단계 진입 시 |
+| `references/L3-series.md` | L3 series | 해당 단계 진입 시 |
+| `references/L4-growth.md` | L4 growth | 해당 단계 진입 시 |
+| `references/L5-IPO.md` | L5 IPO | 해당 단계 진입 시 |
+| `references/L6-MA.md` | L6 MA | 해당 단계 진입 시 |
+| `references/L7-secondary.md` | L7 secondary | 해당 단계 진입 시 |
+| `references/VX-valuation.md` | VX valuation | 해당 단계 진입 시 |
+| `references/X1-equity.md` | X1 equity | 해당 단계 진입 시 |
+| `references/X2-governance.md` | X2 governance | 해당 단계 진입 시 |
+| `references/X3-global.md` | X3 global | 해당 단계 진입 시 |
+| `references/X4-failure.md` | X4 failure | 해당 단계 진입 시 |
+| `references/X5-relations.md` | X5 relations | 해당 단계 진입 시 |
+| `references/cross-analysis.md` | cross analysis | 해당 단계 진입 시 |
+| `references/observation-limits.md` | observation limits | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `bp-guide`
+- 후속 작업 → `biz-skill`
+- 후속 작업 → `holdings-consulting`
+- 후속 작업 → `financial-model`
+
+## Failure Modes (Gotchas)
 
 | 함정 | 대응 |
 |------|------|
@@ -202,3 +261,11 @@ SKILL.md ≤10KB · P1 ≥5개 · Gotchas 존재 확인.
 
 
 <!-- SKILL_PRECEDENCE: UP > SKILL -->
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
