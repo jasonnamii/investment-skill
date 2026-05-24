@@ -1,6 +1,6 @@
 ---
 name: investment-skill
-description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 진단·전략·판정·조회 4모드. P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, VC, PE. P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize. P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy. P5: 진단서로, 전략서로, .md로. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
+description: "v2.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 2026.5 시장·법령 반영 — ESOP 한도 20억·1년 단축·비과세 2억·기술특례 AI/우주/에너지 확대·코스닥 상폐 150억·세컨더리 2,000억 펀드·벤특법 차등의결권·정상화 회복기. 진단·전략·판정·조회 4모드. P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, RCPS, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, 다운라운드, 브릿지, 플립, 차등의결권, 기술특례, VC, PE. P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize. P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy. P5: 진단서로, 전략서로, .md로. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
 ---
 
 # Investment Skill — 인베스트먼트 스킬
@@ -11,8 +11,8 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 
 ## Skill Boundaries
 
-- **하는 것** — "v1.0 스타트업 투자 백과+진단엔진.
-- **안 하는 것** — BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
+- **하는 것** — 스타트업 7단계×3관점+5횡단축+밸류에이션 진단·전략·판정·조회. 2026.5 시장·법령 반영.
+- **안 하는 것** — BP작성(→bp-guide)·사업전략(→biz-skill)·지주회사(→holdings-consulting)·재무모델링(→financial-model)·계약레드라인(→contract-consulting)
 
 ---
 
@@ -75,6 +75,7 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 | → `references/cross-analysis.md` | 모순6·강화5·빈자리9·L×X교차3 + Exit 매트릭스 |
 | → `references/observation-limits.md` | 구조적 한계4·깊이5·소스3·관할2·시간2 |
 | → `references/pattern-index.md` | **패턴 인덱스** — 전체 236개 패턴 마스터 테이블 + 단계·관점별 분포 + 대조쌍 매핑 |
+| → `references/2026-market-update.md` | **2026.5 시장·법령 갱신** — ESOP·IPO·세컨더리·플립·RCPS·차등의결권 최신 |
 
 ### V축 (각 L스포크 내 3관점)
 
@@ -231,6 +232,14 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 | `references/X5-relations.md` | X5 relations | 해당 단계 진입 시 |
 | `references/cross-analysis.md` | cross analysis | 해당 단계 진입 시 |
 | `references/observation-limits.md` | observation limits | 해당 단계 진입 시 |
+| `references/2026-market-update.md` | 2026 시장 갱신 (구버전 점검 완료) | 시장수치 인용 시 |
+| `references/valuation-comp-2026.md` | 한국·미국 단계별 시장 밸류에이션 벤치마크 + 섹터별 프리미엄/디스카운트 | Valuation 협상 시 |
+| `references/lp-gp-dynamics.md` | LP 생태계 + GP 펀드 라이프사이클 + 결성 사이클 + KPI | VC 평가·펀드 선정 시 |
+| `references/ai-deeptech-2026.md` | AI/딥테크 라운드 특수성 — 밸류·딜구조·인재·IP·redflag | AI 스타트업 진입 시 |
+| `references/term-sheet-library/SAFE-korea-2026.md` | SAFE 한국 표준 verbatim + 미국과 차이 + 카운터 | SAFE 협상 시 |
+| `references/term-sheet-library/SHA-RCPS-korea-2026.md` | SHA + RCPS 한국 시리즈 A/B 표준 verbatim + 카운터 | 시리즈 A/B 텀시트 협상 시 |
+| `scripts/cap-table-simulator.py` | 라운드별 희석 + ESOP refresh + Anti-dilution + 다운라운드 시뮬 | 캡테이블 시뮬 필요 시 |
+| `evals/golden-cases.md` | 10 골든 케이스 (엔젤·Seed·A·B·C·IPO·M&A·Bridge·Flip·Acqui-hire) | autoloop·skill-doctor 연동 |
 
 
 ## Next Phase
@@ -258,6 +267,26 @@ description: "v1.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO
 
 ### 자체 점검
 SKILL.md ≤10KB · P1 ≥5개 · Gotchas 존재 확인.
+
+---
+
+## §8. 2026.5 핵심 갱신 사항 (Quick Reference)
+
+| 영역 | 변경 | 시행 | 영향 |
+|---|---|---|---|
+| ESOP 시가이하 한도 | 직원당 20억원 | 2026.1.1 | 핵심 인재 확보 |
+| ESOP 최소 행사제한 | 2년 → 1년 | 2026.1.1 | 인재 유동성 ↑ |
+| ESOP 부여 절차 | 정관 한도 시 이사회만 | 2026.1.1 | 절차 간소화 |
+| ESOP 비과세 한도 | 2억원/년 (2023~) | 유지 | 세후 보상 ↑ |
+| 기술특례상장 분야 | AI·우주·에너지 추가 | 2026.1~ | 딥테크 출구 확대 |
+| 코스닥 상폐 시총 | 40억 → 150억 | 단계적 | 한계기업 정리 |
+| 모태펀드 세컨더리 | 2,000억 자펀드 | 2026 | 회수 다변화 |
+| 차등의결권 | 비상장 벤처 100억↑ | 벤특법 §16의11, 2023.11.17 | 창업자 통제권 |
+| 시장 심리 | 정상화 회복기 | 2026 | 합리적 밸류 |
+| 다운라운드 | 일반화 | 2024~ | Anti-dilution 활용 ↑ |
+| 미국 플립 | 현지 창업 85.5% | 2026.2 | 직진출 추세 |
+
+→ 상세: `references/2026-market-update.md`
 
 
 <!-- SKILL_PRECEDENCE: UP > SKILL -->
