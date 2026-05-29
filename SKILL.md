@@ -1,6 +1,7 @@
 ---
 name: investment-skill
-description: "v2.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 2026.5 시장·법령 반영 — ESOP 한도 20억·1년 단축·비과세 2억·기술특례 AI/우주/에너지 확대·코스닥 상폐 150억·세컨더리 2,000억 펀드·벤특법 차등의결권·정상화 회복기. 진단·전략·판정·조회 4모드. P1: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, RCPS, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, 다운라운드, 브릿지, 플립, 차등의결권, 기술특례, VC, PE. P2: 진단해줘, 전략짜줘, 판단해줘, 알려줘, diagnose, strategize. P3: startup investment, venture capital, term sheet, cap table, valuation, Series A, exit strategy. P5: 진단서로, 전략서로, .md로. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model)."
+description: |
+  v2.0 스타트업 투자 백과+진단엔진. 7단계(엔젤→IPO→Exit)×3관점(전략·법률·재무)+5횡단축+밸류에이션. 2026.5 시장·법령 반영 — ESOP 한도 20억·1년 단축·비과세 2억·기술특례 AI/우주/에너지 확대·코스닥 상폐 150억·세컨더리 2,000억 펀드·벤특법 차등의결권·정상화 회복기. 트리거: 투자스킬, 투자유치, 스타트업투자, 시리즈, 시드라운드, 엔젤투자, 밸류에이션, 텀시트, 지분설계, 캡테이블, 희석, SAFE, SHA, RCPS, ESOP, 안티딜루션, IPO, 엑시트, M&A, 세컨더리, 다운라운드, 브릿지, 플립, 차등의결권, 기술특례, VC, PE, 진단해줘. NOT: BP작성(→bp-guide), 사업전략(→biz-skill), 지주회사(→holdings-consulting), 재무모델링(→financial-model).
 ---
 
 # Investment Skill — 인베스트먼트 스킬
